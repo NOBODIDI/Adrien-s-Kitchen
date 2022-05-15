@@ -76,6 +76,31 @@
     .nav__list.show{
         transform: translateX(-100%); 
     } 
+
+    .nav__list li{
+        display: block;
+        text-align: right;
+        margin-bottom: 2rem;
+    }
+
+    .nav__list a{
+        font-size: 1.6rem;
+    }
+
+    .nav__bgOverlay{
+        position: absolute; 
+        left: 0; 
+        top: 0; 
+        z-index: 1000;
+        height: 100vh; 
+        width: 100%; 
+        background: rgba(18, 24,14, 0.8);
+        display: none; 
+    }
+    
+    .nav__bgOverlay.active{
+        display: block; 
+    }
 }
 
 /* Global Button Styles */
