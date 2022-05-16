@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./components.css">
     <!-- aos css (animate on scroll library)-->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
+    <link rel="stylesheet" href="./home.css">
 </head>
 
 <body>
@@ -77,11 +77,35 @@
         </div>
     </div>
     <!-- End Nav Section-->
-    <h1>Home Page</h1>
+
+    <!-- Hero Section-->
+    <section id="hero">
+        <div class="container">
+            <div class="hero__wrapper">
+                <div class="hero__left" data-aos= "fade-left">
+                    <div class="hero__left__wrapper">
+                        <h1 class="hero__heading">The flavor of tradition.</h1>
+                        <p class="hero__info">We are a French cuisine restaurant
+                            offering a wide variety of dishes in both casual and fine 
+                            dining environment.</p>
+                        <div class="button__wrapper">
+                            <a href="./menu.html" class="btn primary-btn"> Explore Menu</a>
+                            <a href="./booking.html" class="btn"> Book Table</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__right" data-aos="fade-right">
+                    <div class="hero__img__wrapper">
+                        <img src="./restaurant_website/images/heroImg.png" alt="food img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Hero Section -->
 
     <!-- Footer -->
-
-    <!-- End Footer-->
     <footer>
         <div class="container">
             <div class="footer__wrapper">
@@ -89,7 +113,7 @@
                     <div class="footer__logo">
                         <img src="./restaurant_website/images/logo.svg" alt=" Adrien's Kitchen">
                     </div>
-                    <p class="footer_desc">
+                    <p class="footer__desc">
                         Fresh and delicious traditional French food to delight the whole family.
                     </p>
                     <div class="footer__socials">
@@ -104,7 +128,7 @@
                                     viewBox="0 0 24 24"
                                     fill="none"
                                     stroke="currentColor"
-                                    stroke-width="2"
+                                    stroke-width="1"
                                     stroke-linecap="round"
                                     stroke-linejoin="round"
                                     >
@@ -121,7 +145,7 @@
                                     viewBox="0 0 24 24"
                                     fill="none"
                                     stroke="currentColor"
-                                    stroke-width="2"
+                                    stroke-width="1"
                                     stroke-linecap="round"
                                     stroke-linejoin="round"
                                   >
@@ -140,7 +164,7 @@
                                     viewBox="0 0 24 24"
                                     fill="none"
                                     stroke="currentColor"
-                                    stroke-width="2"
+                                    stroke-width="1"
                                     stroke-linecap="round"
                                     stroke-linejoin="round"
                                   >
@@ -176,13 +200,53 @@
                         </li>
                     </ol>
                 </div>
+                <div class="footer__col3">
+                    <h3 class="footer__text__title">
+                        Support
+                    </h3>
+                    <ol class="footer__text">
+                        <li>
+                            <a href="./contact.html">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#">Support Center</a>
+                        </li>
+                        <li>
+                            <a href="#">Feedback</a>
+                        </li>
+                    </ol>
+                </div>
+                <div class="footer__col4">
+                    <h3 class="footer__text__title">
+                        Contact
+                    </h3>
+                    <ol class="footer__text">
+                        <li>
+                            <a href="tel:+1 647 382 9631">+1 (647) 382-9631</a>
+                        </li>
+                        <li>
+                            <a href="mailto: adrienmeryusa@gmail.com">adrienmeryusa@gmail.com</a>
+                        </li>
+                        <li>
+                            <a href="#">Old Toronto</a>
+                        </li>
+                    </ol>
+                </div>
             </div>
         </div>
-    </footer>
+    <!-- End Footer-->
 
+    </footer>
+    <div id="copyright">
+        <div class="container">
+            <p class="copyright__text">
+                © copyright 2021 Adriens's Kitchen | All rights reserved
+            </p>
+        </div>
+    </div>
     <!-- aos script-->
      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
      <!-- custom script-->
-     <script src="./main.js"></script>
+     <script src="main.js"></script>
 </body>
 </html>
