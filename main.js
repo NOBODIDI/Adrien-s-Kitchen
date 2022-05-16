@@ -6,13 +6,14 @@ const navBgOverlayElt = document.querySelector('nav__bgOverlay');
 const navOpen = () => {
     navList.classList.add('show'); 
     navBgOverlayElt.classList.add('active'); 
-    document.body.style = 'visibility: visible; height: 100vh; width: 100vh; overflow: hidden'; 
+    document.body.style = 'visibility: visible; height: 100vh; width: 100vw; overflow: hidden;'; 
 }
 
 const navClose = () => {
     navList.classList.remove('show'); 
     navBgOverlayElt.classList.remove('active'); 
-    document.body.style = 'visibility: visible; height: initial; width: 100%; overflow-x: hidden'; 
+    document.body.style = 'visibility: visible; height: initial; width: 100%; overflow-x: hidden;'; 
 }
 
 navIconElt.addEventListener('click', navOpen); 
+navCloseElt.addEventListener('click', navClose); 
