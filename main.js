@@ -17,3 +17,4 @@ const navClose = () => {
 
 navIconElt.addEventListener('click', navOpen); 
 navCloseElt.addEventListener('click', navClose); 
+navBgOverlayElt.addEventListener('click', navClose); 
