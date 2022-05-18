@@ -1,4 +1,4 @@
-# restaurant-website
+# Adrien's Kitchen
 
 In this project, I create a fully functional and responsive restaurant website using HTML, CSS and JavaScript, from scratch. I deployed this website using netlify, and you can visit it at this address: [https://adrien-s-kitchen.netlify.app](https://adrien-s-kitchen.netlify.app)
 
