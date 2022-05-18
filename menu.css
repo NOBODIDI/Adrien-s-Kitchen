@@ -25,7 +25,7 @@
 /* Our Specials Menu Styles */
 
 #ourSpecials{
-    padding 0; 
+    padding: 0; 
 }
 
 .ourSpecials__title{
@@ -120,6 +120,14 @@
     }
 }
 
+/* Dish Grid Styles */
 
+#dishGrid{
+    padding-bottom: 0;
+}
+
+#dishGrid:last-of-type{ /* Useful! */
+    padding-bottom: 10rem;
+}
 
 
