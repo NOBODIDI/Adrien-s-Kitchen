@@ -4,6 +4,10 @@ In this project, I create a fully functional and responsive restaurant website u
 
 The website is composed of 5 pages: home, menu, about, contact and booking pages. It is fully responsive as the layout adapts to all widths of screen, using the CSS media queries. It is also functional because the forms included on the website collects data, which is displayed on the Netlify dashboard. 
 
+
+<img src="https://github.com/NOBODIDI/Restaurant-website/blob/main/restaurant_website/images/logo.png" height="150">
+*Restaurant Website logo, created using Google Drawings*
+
 ### 1. Creating a Strong HTML structure for the website 
 ### 2. Obtaining images and logos
 ### 3. Choosing a color palette
