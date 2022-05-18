@@ -38,8 +38,8 @@ This is a sample of the formatting of an HTML module in the website.
 
 ### 2. Obtaining images and logos
 
-I used [https://pixabay.com/](Pixabay) to obtain images that are free-to-use. This is essential when deploying a website on the internet. 
-For the icons, I used the open-source library [https://feathericons.com/](Feather Icons). 
+I used [Pixabay](https://pixabay.com/) to obtain images that are free-to-use. This is essential when deploying a website on the internet. 
+For the icons, I used the open-source library [Feather Icons](https://feathericons.com/). 
 
 I created the logo for "Adrien's Kitchen" on Google Drawings, and saved it as a svg. 
 
