@@ -53,10 +53,21 @@ The text and background are always distinguishable.
 
 ### 4. Styling the website using CSS
 
+I first created color variables, imported two fonts (Poppins and Raleway), and implemented default styles for the website. I then proceeded onto writing the different modules in their pages' respective CSS files. For some modules that are present on several pages, I did the styling on a file that is referenced in all HTML files, for simplicity. 
+
+I used CSS Grid and Flexboxes, as well as many standard CSS properties. 
 
 ### 5. Making beautiful animations
+
+I used the [Animate On Scroll Library](https://michalsnik.github.io/aos/) to animate the modules of the website as they appeared in the viewport. After initializing these animations on JavaScript, I used them by setting them for each module. 
+
 ### 6. Making the website fully responsive
-### 7. Making the forms
-### 8. Deploying the website on Netlify
-### 9. Making the forms functional
-### 10. The RESULT
+
+Each module was programmed with a mobile-first strategy in mind, then it was adapted to larger screens (above 768px in width) using media queries. When necessary, I also added media queries for casese where the screen would be very thin ( less than 300px). This makes the website usable on all screen sizes. 
+
+### 7. Deploying the website on Netlify
+
+By connecting my GitHub accound to Netlify, I was able to put the website online. From the Netlify platform I changed the website address to [](). 
+
+### 8. Making the forms functional
+### 9. The RESULT
