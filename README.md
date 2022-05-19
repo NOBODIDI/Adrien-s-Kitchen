@@ -45,10 +45,15 @@ I created the logo for "Adrien's Kitchen" on Google Drawings, and saved it as a 
 
 ### 3. Choosing a color palette
 
+The goal when choosing a color palette is to have a distinct and memorable color pattern that is esthetic, and helps to make the website accessible for all. 
+Readability is most affected by contrast between colors so I made sure to keep this contrast high between text and background. 
 
+<img src="https://github.com/NOBODIDI/Adrien-s-Kitchen/blob/main/restaurant_website/images/text_contrast.png" height="250">
+The text and background are always distinguishable. 
 
-To maximize accessibility and esthetics
 ### 4. Styling the website using CSS
+
+
 ### 5. Making beautiful animations
 ### 6. Making the website fully responsive
 ### 7. Making the forms
